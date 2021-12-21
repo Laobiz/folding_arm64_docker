@@ -14,4 +14,4 @@ WORKDIR "/fah"
 VOLUME ["/fah"]
 EXPOSE 7396 36330
 
-ENTRYPOINT ["/usr/bin/FAHClient", "--chdir", "/fah", "--gpu=false", "--http-addresses", "0.0.0.0:7396", "--allow", "0/0", "--command-allow-no-pass", "0/0", "--web-allow", "0/0"]
+ENTRYPOINT ["/usr/bin/FAHClient", "--chdir", "/fah", "--http-addresses", "0.0.0.0:7396", "--allow", "0/0", "--command-allow-no-pass", "0/0", "--web-allow", "0/0"]
